@@ -596,13 +596,15 @@ a:hover {
     margin: 0;
     margin-top: 6px;
 }
-.white h5{
+.white a{
     color: #3a3b3a;
     font-size: 18px;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
     margin: 0;
     margin-top: 3px;
+    display: block;
+    font-weight: bold;
 }
 #aswift_0_expand{
     display: none !important;
@@ -614,6 +616,7 @@ a:hover {
     max-width: 1170px;
     margin: 0 auto;
     font-family: 'Exo 2', sans-serif;
+    margin-bottom: 40px;
 }
 .wrap h1,
 .wrap h2,
@@ -624,7 +627,13 @@ a:hover {
     text-align: center;
 }
 /*and congratulation*/
-
+/*privacy_policy*/
+.wrap h4,
+.wrap p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*and privacy_policy*/
 @media only screen and (max-width: 1500px){
 
 }/*1500*/
