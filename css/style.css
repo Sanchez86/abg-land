@@ -607,6 +607,24 @@ a:hover {
 #aswift_0_expand{
     display: none !important;
 }
+/*and home*/
+/*congratulation*/
+.wrap{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Exo 2', sans-serif;
+}
+.wrap h1,
+.wrap h2,
+.wrap h3{
+    text-align: center;
+}
+.wrap .logo{
+    text-align: center;
+}
+/*and congratulation*/
+
 @media only screen and (max-width: 1500px){
 
 }/*1500*/
@@ -986,5 +1004,50 @@ a:hover {
     }
     .black h5{
         font-size: 21px;
+    }
+    .new-sele{
+        margin-top: 25px;
+    }
+    .new-sele li{
+        font-size: 16px;
+    }
+    .new-sele li:first-child {
+        font-size: 18px;
+    }
+    .let-new {
+        font-size: 20px;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+    .new-pr{
+        line-height: 60px;
+        margin-top: 30px;
+    }
+    .scidk-n {
+        font-size: 24px;
+    }
+    .right-gkl p {
+        display: none;
+    }
+    .form-inn table{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .first-bg{
+        background-image: url(../img/bg_form-ss.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+    .new-nnd{
+        margin-top: 20px;
+    }
+    .new-in-bl {
+        padding-bottom: 64px;
+    }
+    .red_btn.link-ss {
+        margin-top: 30px;
     }
 }
